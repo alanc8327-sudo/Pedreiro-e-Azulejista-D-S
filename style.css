@@ -59,7 +59,41 @@ h1, h2 {
   font-size: 1.2rem;
 }
 
-.galeria h2, .videos h2, .contato h2 {
+.contato h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.contato textarea {
+  font-family: "Lobster", sans-serif;
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+.contato input {
+    font-family: "Lobster", sans-serif;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+.contato label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.galeria h2, .videos h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
